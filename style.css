@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+
+    text-decoration: none;
+    list-style: none;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+}
+
+header{
+    background-color: rgba(31, 61, 152, 0.847);
+}
+
+.conteiner-nav {
+    height: 3em;
+    display: flex;
+    padding: 0.5em 1em ;
+    justify-content: space-between;
+}
+
+
+.conteiner-nav img {
+    height: 100%;
+    width: 100%;
+}
+
+nav{
+    align-self: center;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.itens-menu{
+    font-size: 1.5em;
+    margin: 0 0 0 1em;
+}
