@@ -1,0 +1,5 @@
+---
+deployment:
+      tasks:
+        - export DEPLOYPATH=/home/locald16/sig.grancode.dev.br
+        - /bin/cp -r * $DEPLOYPATH
