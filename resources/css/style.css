@@ -7,6 +7,10 @@
     font-family:'Montserrat Alternates', Impact;
 }
 
+.teste {
+    background-color: blue;
+}
+
 :root{
     --cor-nav: rgba(31, 61, 152, 0.847);
 }
